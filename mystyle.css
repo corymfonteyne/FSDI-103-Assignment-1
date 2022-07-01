@@ -1,0 +1,62 @@
+/*Globals*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald&family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(167, 32, 32);
+}
+/*header*/
+header{
+    height: 200px;
+    background-color: rgba(126, 60, 60, 0.658);
+    text-align: center;
+}    
+
+div{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: rgb(236, 97, 62);
+}
+
+div span{
+    font-size: 22vw;
+    font-weight: 700;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+
+div span:not(:first-child){
+    margin-left: -0.15em;
+}
+/*movie-container*/
+.movie-container{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    height: auto;
+    color: rgb(194, 22, 10); 
+    background-color: rgba(0, 0, 0, 0.63);
+    margin-top: 22%;
+    box-shadow: -5px 4px 4px rgba(0, 0, 0, 0.849);
+}
+.movie-container h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding-left: 200px;
+}
+p{
+    color: rgb(19, 16, 16);
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    
+}
